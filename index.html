@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FruitsSliceGame</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+    
+</head>
+
+<body>
+
+    <div class="placement">
+        <div class="main-container">
+
+            <div id="upperLevel">
+
+                <div id="trials" class="little-box">
+
+                </div>
+
+                <div class="little-box">
+                    SCORE:<span id="score">0</span>
+                </div>
+            </div>
+    
+            <div id="screen">
+                <img id="fruit1" class="fruit">
+            </div>
+    
+            <div id="instruction">
+                Catch the fruits!
+            </div>
+    
+            <div class="final-bar">
+    
+                <div id="reset">
+                    Start
+                </div>
+
+            </div>
+        </div>
+    </div>
+   
+    <div id="game-over">
+        Game over!
+        Your score is <span id="finalScore">0</span>
+    </div>
+    
+    <audio id="slicefruit">
+        <source src="./audio/kungfusword (online-audio-converter.com).ogg" type="audio/ogg">
+        <source src="./audio/kungfusword (online-audio-converter.com).mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./javasript/home.js"></script>
+</body>
+</html>
